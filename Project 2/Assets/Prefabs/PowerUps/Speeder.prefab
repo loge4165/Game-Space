@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6027534414126038235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460263754812126775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e929ef36192d64a9f2d90e584316ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 130c71c5e44ff604e83a046980ed739b, type: 3}
+  multiplier: 1.3
+--- !u!1001 &1751687558714196700
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7775268148662918916, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: title
+      value: QuickFooted
+      objectReference: {fileID: 0}
+    - target: {fileID: -7775268148662918916, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: component
+      value: 
+      objectReference: {fileID: -6027534414126038235}
+    - target: {fileID: -7775268148662918916, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: description
+      value: Move and Dash faster
+      objectReference: {fileID: 0}
+    - target: {fileID: -5442334842801954372, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 21300000, guid: 130c71c5e44ff604e83a046980ed739b, type: 3}
+    - target: {fileID: 868307044935267563, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_Name
+      value: Speeder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166537539495484243, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b69611ac1580f44794e0dda75f7010f, type: 2}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2286579878074150393, guid: 6097651297d75de4db48403768bb7314, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6097651297d75de4db48403768bb7314, type: 3}
+--- !u!1 &1460263754812126775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 868307044935267563, guid: 6097651297d75de4db48403768bb7314, type: 3}
+  m_PrefabInstance: {fileID: 1751687558714196700}
+  m_PrefabAsset: {fileID: 0}
